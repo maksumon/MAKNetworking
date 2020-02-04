@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F5B066F23E88EA200702054 /* MAKDataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B066E23E88EA200702054 /* MAKDataCache.swift */; };
+		9F5B067023E88EA200702054 /* MAKDataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B066E23E88EA200702054 /* MAKDataCache.swift */; };
+		9F5B067223E89B8C00702054 /* MAKImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B067123E89B8C00702054 /* MAKImageView.swift */; };
+		9F5B067323E89B8C00702054 /* MAKImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B067123E89B8C00702054 /* MAKImageView.swift */; };
+		9F5B067523E89BB100702054 /* MAKImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B067423E89BB100702054 /* MAKImageView.xib */; };
+		9F5B067623E89BB100702054 /* MAKImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B067423E89BB100702054 /* MAKImageView.xib */; };
+		9FC6A8EC23DCC3C900F92620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A8EB23DCC3C900F92620 /* AppDelegate.swift */; };
+		9FC6A8EE23DCC3C900F92620 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A8ED23DCC3C900F92620 /* SceneDelegate.swift */; };
+		9FC6A8F023DCC3C900F92620 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A8EF23DCC3C900F92620 /* UserListViewController.swift */; };
+		9FC6A8F323DCC3C900F92620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC6A8F123DCC3C900F92620 /* Main.storyboard */; };
+		9FC6A8F523DCC3C900F92620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC6A8F423DCC3C900F92620 /* Assets.xcassets */; };
+		9FC6A8F823DCC3C900F92620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC6A8F623DCC3C900F92620 /* LaunchScreen.storyboard */; };
+		9FC6A90323DCC3C900F92620 /* MAKNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A90223DCC3C900F92620 /* MAKNetworkingTests.swift */; };
+		9FC6A92823DE107E00F92620 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A92723DE107E00F92620 /* APIManager.swift */; };
+		9FC6A92923DE107E00F92620 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A92723DE107E00F92620 /* APIManager.swift */; };
+		9FC6A93023DE150900F92620 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A92A23DE150800F92620 /* Category.swift */; };
+		9FC6A93123DE150900F92620 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A92A23DE150800F92620 /* Category.swift */; };
+		9FC6A93223DE150900F92620 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A92B23DE150800F92620 /* Urls.swift */; };
+		9FC6A93323DE150900F92620 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A92B23DE150800F92620 /* Urls.swift */; };
+		9FC6A93423DE150900F92620 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A92C23DE150800F92620 /* ProfileImage.swift */; };
+		9FC6A93523DE150900F92620 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A92C23DE150800F92620 /* ProfileImage.swift */; };
+		9FC6A93623DE150900F92620 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A92D23DE150800F92620 /* Links.swift */; };
+		9FC6A93723DE150900F92620 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A92D23DE150800F92620 /* Links.swift */; };
+		9FC6A93823DE150900F92620 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A92E23DE150800F92620 /* User.swift */; };
+		9FC6A93923DE150900F92620 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A92E23DE150800F92620 /* User.swift */; };
+		9FC6A93A23DE150900F92620 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A92F23DE150800F92620 /* Post.swift */; };
+		9FC6A93B23DE150900F92620 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A92F23DE150800F92620 /* Post.swift */; };
+		9FC6A93E23DEC5D700F92620 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A93D23DEC5D700F92620 /* UserTableViewCell.swift */; };
+		9FC6A93F23DEC5D700F92620 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A93D23DEC5D700F92620 /* UserTableViewCell.swift */; };
+		9FC6A94423DEDB3600F92620 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A94323DEDB3500F92620 /* Constants.swift */; };
+		9FC6A94523DEDB3600F92620 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6A94323DEDB3500F92620 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FC6A8FF23DCC3C900F92620 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FC6A8E023DCC3C900F92620 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FC6A8E723DCC3C900F92620;
+			remoteInfo = MAKNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F5B066E23E88EA200702054 /* MAKDataCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAKDataCache.swift; sourceTree = "<group>"; };
+		9F5B067123E89B8C00702054 /* MAKImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAKImageView.swift; sourceTree = "<group>"; };
+		9F5B067423E89BB100702054 /* MAKImageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MAKImageView.xib; sourceTree = "<group>"; };
+		9FC6A8E823DCC3C900F92620 /* MAKNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAKNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC6A8EB23DCC3C900F92620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FC6A8ED23DCC3C900F92620 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9FC6A8EF23DCC3C900F92620 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		9FC6A8F223DCC3C900F92620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FC6A8F423DCC3C900F92620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FC6A8F723DCC3C900F92620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FC6A8F923DCC3C900F92620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC6A8FE23DCC3C900F92620 /* MAKNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAKNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC6A90223DCC3C900F92620 /* MAKNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAKNetworkingTests.swift; sourceTree = "<group>"; };
+		9FC6A90423DCC3C900F92620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC6A92723DE107E00F92620 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		9FC6A92A23DE150800F92620 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		9FC6A92B23DE150800F92620 /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		9FC6A92C23DE150800F92620 /* ProfileImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
+		9FC6A92D23DE150800F92620 /* Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		9FC6A92E23DE150800F92620 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9FC6A92F23DE150800F92620 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		9FC6A93D23DEC5D700F92620 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		9FC6A94323DEDB3500F92620 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FC6A8E523DCC3C900F92620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC6A8FB23DCC3C900F92620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F4FA18323E9F0550086622E /* MAKDataCache */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B066E23E88EA200702054 /* MAKDataCache.swift */,
+				9F5B067123E89B8C00702054 /* MAKImageView.swift */,
+				9F5B067423E89BB100702054 /* MAKImageView.xib */,
+			);
+			path = MAKDataCache;
+			sourceTree = "<group>";
+		};
+		9FC6A8DF23DCC3C900F92620 = {
+			isa = PBXGroup;
+			children = (
+				9FC6A8EA23DCC3C900F92620 /* MAKNetworking */,
+				9FC6A90123DCC3C900F92620 /* MAKNetworkingTests */,
+				9FC6A8E923DCC3C900F92620 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FC6A8E923DCC3C900F92620 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FC6A8E823DCC3C900F92620 /* MAKNetworking.app */,
+				9FC6A8FE23DCC3C900F92620 /* MAKNetworkingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FC6A8EA23DCC3C900F92620 /* MAKNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9F4FA18323E9F0550086622E /* MAKDataCache */,
+				9FC6A92623DE104600F92620 /* Utils */,
+				9FC6A93C23DEC5B400F92620 /* Views */,
+				9FC6A91023DE0B1C00F92620 /* Models */,
+				9FC6A8EB23DCC3C900F92620 /* AppDelegate.swift */,
+				9FC6A8ED23DCC3C900F92620 /* SceneDelegate.swift */,
+				9FC6A8EF23DCC3C900F92620 /* UserListViewController.swift */,
+				9FC6A8F123DCC3C900F92620 /* Main.storyboard */,
+				9FC6A8F423DCC3C900F92620 /* Assets.xcassets */,
+				9FC6A8F623DCC3C900F92620 /* LaunchScreen.storyboard */,
+				9FC6A8F923DCC3C900F92620 /* Info.plist */,
+			);
+			path = MAKNetworking;
+			sourceTree = "<group>";
+		};
+		9FC6A90123DCC3C900F92620 /* MAKNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FC6A90223DCC3C900F92620 /* MAKNetworkingTests.swift */,
+				9FC6A90423DCC3C900F92620 /* Info.plist */,
+			);
+			path = MAKNetworkingTests;
+			sourceTree = "<group>";
+		};
+		9FC6A91023DE0B1C00F92620 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FC6A92A23DE150800F92620 /* Category.swift */,
+				9FC6A92D23DE150800F92620 /* Links.swift */,
+				9FC6A92F23DE150800F92620 /* Post.swift */,
+				9FC6A92C23DE150800F92620 /* ProfileImage.swift */,
+				9FC6A92B23DE150800F92620 /* Urls.swift */,
+				9FC6A92E23DE150800F92620 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9FC6A92623DE104600F92620 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9FC6A94323DEDB3500F92620 /* Constants.swift */,
+				9FC6A92723DE107E00F92620 /* APIManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9FC6A93C23DEC5B400F92620 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FC6A93D23DEC5D700F92620 /* UserTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FC6A8E723DCC3C900F92620 /* MAKNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC6A90723DCC3C900F92620 /* Build configuration list for PBXNativeTarget "MAKNetworking" */;
+			buildPhases = (
+				9FC6A8E423DCC3C900F92620 /* Sources */,
+				9FC6A8E523DCC3C900F92620 /* Frameworks */,
+				9FC6A8E623DCC3C900F92620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAKNetworking;
+			productName = MAKNetworking;
+			productReference = 9FC6A8E823DCC3C900F92620 /* MAKNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FC6A8FD23DCC3C900F92620 /* MAKNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC6A90A23DCC3C900F92620 /* Build configuration list for PBXNativeTarget "MAKNetworkingTests" */;
+			buildPhases = (
+				9FC6A8FA23DCC3C900F92620 /* Sources */,
+				9FC6A8FB23DCC3C900F92620 /* Frameworks */,
+				9FC6A8FC23DCC3C900F92620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FC6A90023DCC3C900F92620 /* PBXTargetDependency */,
+			);
+			name = MAKNetworkingTests;
+			productName = MAKNetworkingTests;
+			productReference = 9FC6A8FE23DCC3C900F92620 /* MAKNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FC6A8E023DCC3C900F92620 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Mohammad Ashraful Kabir";
+				TargetAttributes = {
+					9FC6A8E723DCC3C900F92620 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					9FC6A8FD23DCC3C900F92620 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 9FC6A8E723DCC3C900F92620;
+					};
+				};
+			};
+			buildConfigurationList = 9FC6A8E323DCC3C900F92620 /* Build configuration list for PBXProject "MAKNetworking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FC6A8DF23DCC3C900F92620;
+			productRefGroup = 9FC6A8E923DCC3C900F92620 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FC6A8E723DCC3C900F92620 /* MAKNetworking */,
+				9FC6A8FD23DCC3C900F92620 /* MAKNetworkingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FC6A8E623DCC3C900F92620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC6A8F823DCC3C900F92620 /* LaunchScreen.storyboard in Resources */,
+				9F5B067523E89BB100702054 /* MAKImageView.xib in Resources */,
+				9FC6A8F523DCC3C900F92620 /* Assets.xcassets in Resources */,
+				9FC6A8F323DCC3C900F92620 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC6A8FC23DCC3C900F92620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5B067623E89BB100702054 /* MAKImageView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FC6A8E423DCC3C900F92620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC6A8F023DCC3C900F92620 /* UserListViewController.swift in Sources */,
+				9FC6A93023DE150900F92620 /* Category.swift in Sources */,
+				9FC6A93E23DEC5D700F92620 /* UserTableViewCell.swift in Sources */,
+				9FC6A93423DE150900F92620 /* ProfileImage.swift in Sources */,
+				9F5B067223E89B8C00702054 /* MAKImageView.swift in Sources */,
+				9FC6A92823DE107E00F92620 /* APIManager.swift in Sources */,
+				9FC6A93223DE150900F92620 /* Urls.swift in Sources */,
+				9FC6A94423DEDB3600F92620 /* Constants.swift in Sources */,
+				9FC6A93823DE150900F92620 /* User.swift in Sources */,
+				9FC6A8EC23DCC3C900F92620 /* AppDelegate.swift in Sources */,
+				9F5B066F23E88EA200702054 /* MAKDataCache.swift in Sources */,
+				9FC6A8EE23DCC3C900F92620 /* SceneDelegate.swift in Sources */,
+				9FC6A93623DE150900F92620 /* Links.swift in Sources */,
+				9FC6A93A23DE150900F92620 /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC6A8FA23DCC3C900F92620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5B067023E88EA200702054 /* MAKDataCache.swift in Sources */,
+				9FC6A90323DCC3C900F92620 /* MAKNetworkingTests.swift in Sources */,
+				9FC6A94523DEDB3600F92620 /* Constants.swift in Sources */,
+				9FC6A93F23DEC5D700F92620 /* UserTableViewCell.swift in Sources */,
+				9FC6A93723DE150900F92620 /* Links.swift in Sources */,
+				9FC6A92923DE107E00F92620 /* APIManager.swift in Sources */,
+				9FC6A93B23DE150900F92620 /* Post.swift in Sources */,
+				9FC6A93123DE150900F92620 /* Category.swift in Sources */,
+				9FC6A93523DE150900F92620 /* ProfileImage.swift in Sources */,
+				9FC6A93323DE150900F92620 /* Urls.swift in Sources */,
+				9FC6A93923DE150900F92620 /* User.swift in Sources */,
+				9F5B067323E89B8C00702054 /* MAKImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FC6A90023DCC3C900F92620 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FC6A8E723DCC3C900F92620 /* MAKNetworking */;
+			targetProxy = 9FC6A8FF23DCC3C900F92620 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FC6A8F123DCC3C900F92620 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FC6A8F223DCC3C900F92620 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FC6A8F623DCC3C900F92620 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FC6A8F723DCC3C900F92620 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FC6A90523DCC3C900F92620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FC6A90623DCC3C900F92620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FC6A90823DCC3C900F92620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74J66C6GZ2;
+				INFOPLIST_FILE = MAKNetworking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksumon.MAKNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FC6A90923DCC3C900F92620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74J66C6GZ2;
+				INFOPLIST_FILE = MAKNetworking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksumon.MAKNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FC6A90B23DCC3C900F92620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74J66C6GZ2;
+				INFOPLIST_FILE = MAKNetworkingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksumon.MAKNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAKNetworking.app/MAKNetworking";
+			};
+			name = Debug;
+		};
+		9FC6A90C23DCC3C900F92620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74J66C6GZ2;
+				INFOPLIST_FILE = MAKNetworkingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksumon.MAKNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAKNetworking.app/MAKNetworking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FC6A8E323DCC3C900F92620 /* Build configuration list for PBXProject "MAKNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC6A90523DCC3C900F92620 /* Debug */,
+				9FC6A90623DCC3C900F92620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC6A90723DCC3C900F92620 /* Build configuration list for PBXNativeTarget "MAKNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC6A90823DCC3C900F92620 /* Debug */,
+				9FC6A90923DCC3C900F92620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC6A90A23DCC3C900F92620 /* Build configuration list for PBXNativeTarget "MAKNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC6A90B23DCC3C900F92620 /* Debug */,
+				9FC6A90C23DCC3C900F92620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FC6A8E023DCC3C900F92620 /* Project object */;
+}
